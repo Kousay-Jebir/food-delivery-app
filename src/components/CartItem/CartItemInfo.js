@@ -1,14 +1,18 @@
 import React from 'react'
+import './CartItemInfo.css';
+import Container from '../container/Container';
+
 
 export default function CartItemInfo() {
-    const ItemName="Sushi";
-    const ItemPrice=22.9;
-    const ItemQuantityInCart=2; //kadeh mn item fl cart
+    const itemName="Sushi";
+    const itemPrice=22.9;
+    const itemQuantityInCart=2; 
     return (
-    <>
-      <h3>{ItemName}</h3>
-      <p>${ItemPrice}</p>
-      <p>x{ItemQuantityInCart}</p> 
-    </>
+    <Container name="cart-item-container">
+        <h4 className="item-name">{itemName}</h4>
+        <p className='item-price' >${itemPrice}</p>
+        <p className='item-quantity'>x {itemQuantityInCart}</p> 
+        <hr></hr>
+    </Container>
   )
 }

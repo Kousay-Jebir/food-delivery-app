@@ -1,12 +1,15 @@
 import React from 'react'
+import Container from '../container/Container';
+import './TotalAmount.css';
+
 
 export default function TotalAmount() {
-    const TotalAmount=45.98;
+    const totalAmount=45.98;
     return (
-    <>
-      <h3>Total Amount</h3>
-      <h3>${TotalAmount}</h3>
-    </>
+    <Container name="total-amount-container">
+      <h3 className='total-amount-title'>Total Amount</h3>
+      <h3 className='total-amount-amount'>${totalAmount}</h3>
+    </Container>
   )
 }
 
