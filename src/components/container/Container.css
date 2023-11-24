@@ -1,8 +1,22 @@
 .container {
     border-radius: 0.5rem;
     font-size: 1.5rem;
+    font-family: sans-serif;
 }
 
 /* .food_items {
     background-color: aqua;   teba3 el exemple
 } */
+
+.cart_button_container {
+    width: 14rem;
+    border-radius: 5rem;
+    background: #4D1601;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-block: 0.5rem;
+    padding-inline: 2rem;
+    font-weight: bold;
+}

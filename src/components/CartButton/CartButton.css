@@ -1,0 +1,14 @@
+.cart_button_counter {
+    background-color: #B94517;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    padding-inline: 1rem;
+}
+
+#cart_image {
+    height: 2rem;
+    aspect-ratio: 1;
+}
+
+/* .cart_button_title {} */
