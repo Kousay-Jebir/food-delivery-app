@@ -1,5 +1,6 @@
 import CartButton from "./components/CartButton/CartButton";
 import FoodItemInfo from "./components/OrderingItem/FoodItemInfo";
+import OderingItem from "./components/OrderingItem/OrderingItem";
 
 function App() {
   const foods = [
@@ -30,7 +31,10 @@ function App() {
     // essayed mta el formatin 
     <>
       {/* <Container name="food_items">Exemple ou bara</Container>  exemple este3mel component container */}
-
+      <OderingItem food={foods[0]}></OderingItem>
+      <OderingItem food={foods[1]}></OderingItem>
+      <OderingItem food={foods[2]}></OderingItem>
+      <OderingItem food={foods[3]}></OderingItem>
 
     </>
   );
