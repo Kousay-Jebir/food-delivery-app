@@ -5,14 +5,15 @@ import FoodItemInfo from "./FoodItemInfo";
 
 const OderingItem = (props) => {
   return (
-    <Container name="button-container">
+    <Container name="food-item">
       <FoodItemInfo food={props.food}></FoodItemInfo>
-      <div>
-        <label>Amount&nbsp;&nbsp;&nbsp;&nbsp;</label>
-        <input type="number" min="0" />
-      </div>
-      <button> + Add </button>
-      <hr></hr>
+      <Container name="button-container">
+        <div>
+          <label>Amount&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="number" min="0" />
+        </div>
+        <button> + Add </button>
+      </Container>
     </Container>
   );
 };
