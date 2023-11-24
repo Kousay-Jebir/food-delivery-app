@@ -1,6 +1,0 @@
-.grid-container {
-    display: grid;
-    grid-template-rows: 1fr 1fr; /* Divisez la grille en 1/3 et 2/3 (lignes plutôt que colonnes) */
-    gap: 20px; /* Espace entre les lignes */
-    padding: 20px;
-  }

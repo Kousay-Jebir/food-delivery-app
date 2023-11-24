@@ -1,0 +1,45 @@
+/* .button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 200px;
+  background-color: red;
+} */
+
+.food-item {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+button {
+  background-color: #7a320c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+input {
+  width: 30px;
+}
+
+hr {
+  border: 1px solid #cecbcb;
+  /* Set the color and style of the line */
+  margin: 10px 0;
+  padding-right: 70px;
+
+  overflow-x: hidden;
+}

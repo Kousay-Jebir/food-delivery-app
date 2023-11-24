@@ -1,15 +1,15 @@
 
 .description-container {
-    background-color: #393636;
-    width: 30em;
-    padding: 20px;
-    /*Stylespourcentrerhorizontalementetverticalement*/position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white; 
-    text-align: center;
+  background-color: #393636;
+  width: 30em;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
 }
+
 
 .description-container h2 {
     margin-bottom: 10px; 

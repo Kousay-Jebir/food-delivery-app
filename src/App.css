@@ -8,3 +8,15 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  
+
+
+
+.food_items-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}

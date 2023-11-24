@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css"
+import CartButton from "../CartButton/CartButton";
 
 function Header() {
     return(
@@ -10,8 +11,7 @@ function Header() {
                 </div>
         
             <div className="d-flex">
-                <i className="shopping-cart"></i>
-                <span className="cart-count"></span>
+                <CartButton/>
              </div>
             </div>
         </header>
