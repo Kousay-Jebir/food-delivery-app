@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('food.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Cela assure que l'image de fond couvre la hauteur totale de la fenêtre */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }

@@ -1,0 +1,23 @@
+
+.description-container {
+    background-color: #393636;
+    width: 30em;
+    padding: 20px;
+    /*Stylespourcentrerhorizontalementetverticalement*/position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    text-align: center;
+}
+
+.description-container h2 {
+    margin-bottom: 10px; 
+    font-family: cursive;
+  }
+  
+  .description-container p {
+    margin-bottom: 10px; 
+    font-family: system-ui;
+    font-size: 12px;
+  }
