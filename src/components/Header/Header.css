@@ -1,16 +1,10 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.header {
-    height: 70px;
-    background: #B0280B; 
-    display: flex;
-    justify-content: space-between;
-    
-}
+
 
 
 .inner{
@@ -24,4 +18,18 @@
     font-size: 30px; 
     margin-top: 7.5px; 
     margin-left: 100px; 
+} */
+
+header {
+    box-sizing: border-box;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    background: #B0280B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 7rem;
+
+
 }

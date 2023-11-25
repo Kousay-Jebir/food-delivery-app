@@ -9,6 +9,7 @@
     padding: 1rem;
     background-color: white;
     width: 50%;
+    min-width: 250px;
 }
 
 /* .button-container {
@@ -25,14 +26,16 @@
 
 
 .cart_button_container {
-    width: 14rem;
+    min-width: 15rem;
     border-radius: 5rem;
     background: #4D1601;
     color: white;
     display: flex;
-    align-items: center;
-    gap: 1rem;
+    justify-content: center;
+    gap: 0.6rem;
     padding-block: 0.5rem;
-    padding-inline: 2rem;
+    align-items: center;
     font-weight: bold;
+    margin: 0;
+    font-size: 0.9rem;
 }

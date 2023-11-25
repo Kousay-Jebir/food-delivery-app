@@ -1,7 +1,11 @@
 import "./Container.css";
 const Container = (props) => {
   const containerName = "container " + props.name;
-  console.log(containerName);
-  return <div className={containerName}>{props.children}</div>;
+  if (props.containerType != "button") {
+    return <div className={containerName}>{props.children}</div>;
+  }
+  else {
+    return <button className={containerName}>{props.children}</button>;
+  }
 };
 export default Container;
