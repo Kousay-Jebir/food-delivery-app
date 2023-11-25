@@ -1,0 +1,20 @@
+.close-button, .order-button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.close-button {
+    color: #7a320c;
+    border: 1px solid #7a320c;
+    background-color: white;
+}
+
+.order-button {
+    background-color: #7a320c;
+    border: none;
+    color: white;
+    margin-left: 10px;
+}

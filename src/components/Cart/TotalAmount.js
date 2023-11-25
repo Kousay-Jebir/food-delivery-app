@@ -7,8 +7,8 @@ export default function TotalAmount() {
     const totalAmount=45.98;
     return (
     <Container name="total-amount-container">
-      <h3 className='total-amount-title'>Total Amount</h3>
-      <h3 className='total-amount-amount'>${totalAmount}</h3>
+      <div className='total-amount-title'>Total Amount</div>
+      <div className='total-amount-amount'>${totalAmount}</div>
     </Container>
   )
 }

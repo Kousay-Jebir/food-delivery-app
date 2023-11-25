@@ -1,24 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-.total-amount-container  {
-    position: relative;
-    top: 270px;
-    left: 400px;
-    box-sizing: border-box;
+.total-amount-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-right: 1rem;
 }
 
-.total-amount-amount, .total-amount-title {
-    font-family: 'Roboto';
+.total-amount-title, .total-amount-amount {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .total-amount-title {
     display: inline-block;
-    margin-left: 0;
-    
-}
-
-.total-amount-amount {
-    display: inline-block;
-    margin-left: 22rem;
 }
