@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css"
 import CartButton from "../CartButton/CartButton";
 
-function Header() {
+function Header({setModal}) {
     return (
         <header>
 
@@ -10,7 +10,7 @@ function Header() {
 
 
 
-            <CartButton />
+            <CartButton setModal={setModal} />
         </header>
     )
 }

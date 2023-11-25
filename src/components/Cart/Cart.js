@@ -5,13 +5,13 @@ import TotalAmount from './CartElements/TotalAmount'
 import CartButtons from './CartElements/CartButtons'
 import './Cart.css'
 
-export default function Cart() {
+export default function Cart(props) {
   return (
-    <Container name='cart'>
+    <Container name={props.state? 'cart-modal-block' : 'cart-modal-none'}>
         <CartItem/>
         <CartItem/>
         <TotalAmount/>
-        <CartButtons/>
+        <CartButtons setModal={props.setModal}/>
     </Container>
   )
 }

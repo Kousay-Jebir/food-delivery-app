@@ -1,5 +1,4 @@
-.cart {
-    display: none;
+.cart-modal-none, .cart-modal-block {
     position: absolute;
     background-color: white;
     border: 1px solid rgba(100, 39, 39, 0.397);
@@ -7,6 +6,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.cart-modal-block {
+    display: block;
+}
+
+.cart-modal-none {
+    display: none;
 }
 
 .cart-buttons-container {

@@ -6,8 +6,10 @@ import Cart from "./components/Cart/Cart";
 import './App.css';
 import Description from "./components/Description/Description";
 import "./components/container/Container.css"
+import { useState } from "react";
 
 function App() {
+  const [modal,setModal]=useState(false);
   const foods = [
     {
       foodName: "Sushi",
@@ -30,6 +32,7 @@ function App() {
       foodPrice: "$18.99"
     }
   ]
+
   return (
    
     // Code el App.js 
@@ -38,9 +41,9 @@ function App() {
     <>
       { /*<Container name="food_items">Exemple ou bara</Container>  exemple este3mel component container */}
       
-      <Header /> 
+      <Header setModal={setModal}/> 
       <Description />
-      <Cart/>
+      <Cart state={modal} setModal={setModal}/>
       <div className="food_items-container">
       <Container name="food_items">
         <OderingItem food={foods[0]}></OderingItem>
