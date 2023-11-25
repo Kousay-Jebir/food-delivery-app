@@ -1,22 +1,26 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url('food.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh; /* Cela assure que l'image de fond couvre la hauteur totale de la fenêtre */
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+body,
+html {
+  min-height: 100%;
+}
 
-  
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('food.jpg');
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 
 
 
 .food_items-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
 }
