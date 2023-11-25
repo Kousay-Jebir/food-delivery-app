@@ -1,0 +1,8 @@
+.cart {
+    display: inline-block;
+}
+
+.cart-buttons-container {
+   text-align: right;
+   margin-right: 10px;
+}

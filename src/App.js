@@ -1,6 +1,5 @@
 import FoodItemInfo from "./components/OrderingItem/FoodItemInfo";
 import OderingItem from "./components/OrderingItem/OrderingItem";
-import Container from "./components/container/Container";
 import Header from "./components/Header/Header";
 import './App.css';
 import Description from "./components/Description/Description";

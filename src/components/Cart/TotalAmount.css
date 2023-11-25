@@ -1,0 +1,15 @@
+.total-amount-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-right: 1rem;
+}
+
+.total-amount-title, .total-amount-amount {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.total-amount-title {
+    display: inline-block;
+}
