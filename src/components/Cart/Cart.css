@@ -1,5 +1,12 @@
 .cart {
-    display: inline-block;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid rgba(100, 39, 39, 0.397);
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .cart-buttons-container {
