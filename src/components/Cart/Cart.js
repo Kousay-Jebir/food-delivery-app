@@ -9,6 +9,7 @@ export default function Cart() {
   return (
     <Container name='cart'>
         <CartItem/>
+        <CartItem/>
         <TotalAmount/>
         <CartButtons/>
     </Container>
