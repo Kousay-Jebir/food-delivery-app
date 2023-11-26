@@ -4,12 +4,12 @@ import CartItemInfo from './CartItemInfo'
 import CartItemButtons from './CartItemButtons'
 import './CartItem.css'
 
-export default function CartItem() {
+export default function CartItem(props) {
   return (
     <Container name='cart-item'>
-        <CartItemInfo/>
-        <CartItemButtons/>
-        <hr></hr>
+      <CartItemInfo />
+      <CartItemButtons />
+      <hr></hr>
     </Container>
   )
 }

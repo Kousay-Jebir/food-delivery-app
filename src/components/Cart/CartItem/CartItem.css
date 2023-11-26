@@ -1,4 +1,5 @@
-.cart-item-info-container, .item-buttons-container {
+.cart-item-info-container,
+.item-buttons-container {
     display: inline;
 }
 
@@ -8,9 +9,9 @@
 
 
 
-hr {
-    border: 1px solid #c97373; /* Set the color and style of the line */
+/*hr {
+    border: 1px solid #c97373;
     margin: 10px 0;
     padding-right: 70px;
     width:500px;
-}
+} */

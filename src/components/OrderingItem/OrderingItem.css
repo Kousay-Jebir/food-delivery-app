@@ -36,10 +36,6 @@ input {
 }
 
 hr {
-  border: 1px solid #cecbcb;
+  border: 1px solid #d16b6b;
   /* Set the color and style of the line */
-  margin: 10px 0;
-  padding-right: 70px;
-
-  overflow-x: hidden;
 }
