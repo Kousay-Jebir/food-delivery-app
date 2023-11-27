@@ -23,8 +23,13 @@ export default function Cart(props) {
                 break;
             }
         }
-        const updatedCartItems = [...cartItems];
-        updatedCartItems[index] = updatedItem;
+        let updatedCartItems = [...cartItems];
+        if (updatedItem.itemQuantity === 0){
+            updatedCartItems = [...cartItems.slice(0, index), ...cartItems.slice(index + 1)];
+        }
+        else {
+            updatedCartItems[index] = updatedItem;
+        }
         setCartItems(updatedCartItems);
     };
 

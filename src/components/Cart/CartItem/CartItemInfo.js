@@ -3,10 +3,10 @@ import './CartItemInfo.css';
 //import Container from '../container/Container';
 
 
-export default function CartItemInfo({ item, quantity }) {
+export default function CartItemInfo({ item }) {
     const itemName=item.itemName;
     const itemPrice=item.itemPrice;
-    const itemQuantity = quantity;
+    const itemQuantity = item.itemQuantity;
     const formattedPrice = (itemPrice * itemQuantity).toFixed(2);
     return (
     <div className="cart-item-info-container">
