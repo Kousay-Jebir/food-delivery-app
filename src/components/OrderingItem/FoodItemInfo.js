@@ -3,9 +3,9 @@ const FoodItemInfo = (props) => {
     return (
         <div className=".food_items-container">
         <ul >
-            <li>{props.food.foodName}</li>
+            <li><strong>{props.food.foodName}</strong></li>
             <li>{props.food.foodDescription}</li>
-            <li>{props.food.foodPrice}</li>
+            <li>$ {props.food.foodPrice}</li>
         </ul>
         </div>)
 }
