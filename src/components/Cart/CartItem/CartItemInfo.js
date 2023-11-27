@@ -3,15 +3,16 @@ import './CartItemInfo.css';
 //import Container from '../container/Container';
 
 
-export default function CartItemInfo() {
-    const itemName="Sushi";
-    const itemPrice=11.45;
-    const itemQuantityInCart=2; 
+export default function CartItemInfo({ item }) {
+    const itemName=item.itemName;
+    const itemPrice=item.itemPrice;
+    const itemQuantity = item.itemQuantity;
+    const formattedPrice = (itemPrice * itemQuantity).toFixed(2);
     return (
     <div className="cart-item-info-container">
         <div className="item-name">{itemName}</div>
-        <div className='item-price' >${itemPrice * itemQuantityInCart}</div>
-        <div className='item-quantity'>x {itemQuantityInCart}</div> 
+        <div className='item-price' >${formattedPrice}</div>
+        <div className='item-quantity'>x {itemQuantity}</div>
     </div>
   )
 }
