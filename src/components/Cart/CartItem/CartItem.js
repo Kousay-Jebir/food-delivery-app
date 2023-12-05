@@ -17,7 +17,7 @@ export default function CartItem({item, onItemUpdate}) {
     <Container name='cart-item'>
         <CartItemInfo item={item} quantity={quantity}/>
         <CartItemButtons initialQuantity={quantity} onQuantityChange={handleQuantityChange} />
-        <hr></hr>
+        
     </Container>
     )
 }

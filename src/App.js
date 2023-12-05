@@ -1,4 +1,3 @@
-import FoodItemInfo from "./components/OrderingItem/FoodItemInfo";
 import OderingItem from "./components/OrderingItem/OrderingItem";
 import Header from "./components/Header/Header";
 import Container from "./components/container/Container";

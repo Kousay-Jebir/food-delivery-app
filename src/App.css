@@ -6,13 +6,12 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-image: url('food.jpg');
+  background-color: #3f3f3f;
   background-size: cover;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 
 
 
