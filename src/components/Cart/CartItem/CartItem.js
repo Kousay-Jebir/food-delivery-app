@@ -1,10 +1,10 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Container from '../../container/Container'
 import CartItemInfo from './CartItemInfo'
 import CartItemButtons from './CartItemButtons'
 import './CartItem.css'
 
-export default function CartItem({item, onItemUpdate}) {
+export default function CartItem({ item, onItemUpdate }) {
     const [quantity, setQuantity] = useState(item.itemQuantity);
 
     const handleQuantityChange = (newQuantity) => {
@@ -14,10 +14,14 @@ export default function CartItem({item, onItemUpdate}) {
     }
 
     return (
-    <Container name='cart-item'>
-        <CartItemInfo item={item} quantity={quantity}/>
-        <CartItemButtons initialQuantity={quantity} onQuantityChange={handleQuantityChange} />
-        
-    </Container>
+        <Container name='cart-item'>
+            <CartItemInfo item={item} quantity={quantity} />
+            <CartItemButtons initialQuantity={quantity} onQuantityChange={handleQuantityChange} />
+            <hr style={{
+                border: "1px solid #B94517",
+                marginTop: "0.75rem"
+            }}></hr>
+
+        </Container>
     )
 }
