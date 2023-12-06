@@ -1,3 +1,9 @@
+h1 {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
 .container {
     border-radius: 0.5rem;
     font-size: 1.5rem;
@@ -26,4 +32,12 @@
     font-weight: bold;
     margin: 0;
     font-size: 0.9rem;
+
+}
+
+@media (max-width: 768px) {
+    .cart_button_container {
+        min-width: fit-content;
+    }
+
 }
